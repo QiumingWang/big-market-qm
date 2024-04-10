@@ -13,28 +13,28 @@ import java.util.Date;
  */
 @Data
 public class StrategyAward {
-    /**  */
-    private long id;
     /** 自增ID */
-    private long strategyId;
+    private Long id;
     /** 抽奖策略ID */
-    private Integer awardId;
+    private Long strategyId;
     /** 抽奖奖品ID - 内部流转使用 */
-    private String awardTitle;
+    private Integer awardId;
     /** 抽奖奖品标题 */
-    private String awardSubtitle;
+    private String awardTitle;
     /** 抽奖奖品副标题 */
-    private Integer awardCount;
+    private String awardSubtitle;
     /** 奖品库存总量 */
-    private Integer awardCountSurplus;
+    private Integer awardCount;
     /** 奖品库存剩余 */
-    private BigDecimal awardRate;
+    private Integer awardCountSurplus;
     /** 奖品中奖概率 */
-    private String ruleModels;
+    private BigDecimal awardRate;
     /** 规则模型，rule配置的模型同步到此表，便于使用 */
-    private Integer sort;
+    private String ruleModels;
     /** 排序 */
-    private Date createTime;
+    private Integer sort;
     /** 创建时间 */
+    private Date createTime;
+    /** 更新时间 */
     private Date updateTime;
 }
