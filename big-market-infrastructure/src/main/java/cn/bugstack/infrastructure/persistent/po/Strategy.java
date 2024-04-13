@@ -5,9 +5,9 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @Author qiuming
- * @Date 2024/04/09 12:23:59
- * @description 抽奖策略
+ * @author: qiuming
+ * @date: 2024/04/09 12:23:59
+ * @description: 抽奖策略
  */
 @Data
 public class Strategy {
@@ -18,6 +18,8 @@ public class Strategy {
     private Long strategyId;
     /** 抽奖策略描述 */
     private String strategyDesc;
+    /** 抽奖规则模型 */
+    private String ruleModels;
     /** 创建时间 */
     private Date createTime;
     /** 更新时间 */

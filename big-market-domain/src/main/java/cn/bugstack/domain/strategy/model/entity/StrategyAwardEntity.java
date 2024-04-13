@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * @className: StrategyAwardEntity
  * @author: qiuming
- * @description: XXX
+ * @description: 抽奖奖品策略实体
  * @date: 2024/4/9 23:41
  */
 @Data
@@ -18,7 +18,6 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class StrategyAwardEntity {
-    /** 自增ID */
     /** 抽奖策略ID */
     private Long strategyId;
     /** 抽奖奖品ID - 内部流转使用 */

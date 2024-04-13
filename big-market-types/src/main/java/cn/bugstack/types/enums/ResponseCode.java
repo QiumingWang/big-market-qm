@@ -12,6 +12,7 @@ public enum ResponseCode {
     SUCCESS("0000", "成功"),
     UN_ERROR("0001", "未知失败"),
     ILLEGAL_PARAMETER("0002", "非法参数"),
+    STRATEGY_RULE_WEIGHT_IS_NULL("0003", "业务异常，策略规则中rule weight 权重规则以适用但没有配置"),
     ;
 
     private String code;
