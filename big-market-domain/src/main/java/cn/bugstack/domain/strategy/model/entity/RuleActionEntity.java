@@ -23,7 +23,6 @@ public class RuleActionEntity <T extends RuleActionEntity.RaffleEntity> {
 
     // 两个过滤规则：抽奖前和抽奖中
     static public class RaffleEntity {
-
     }
 
 
@@ -34,25 +33,18 @@ public class RuleActionEntity <T extends RuleActionEntity.RaffleEntity> {
     @AllArgsConstructor
     @NoArgsConstructor
     static public class RaffleBeforeEntity extends RaffleEntity {
-        /**
-         * 策略ID
-         */
+        /** 策略ID */
         private Long strategyId;
 
-        /**
-         * 权重值Key；用于抽奖时可以选择权重抽奖。
-         */
+        /** 权重值Key；用于抽奖时可以选择权重抽奖。*/
         private String ruleWeightValueKey;
 
-        /**
-         * 奖品ID；
-         */
+        /** 奖品ID；*/
         private Integer awardId;
     }
 
     // 抽奖中
     static public class RaffleCenterEntity extends RaffleEntity {
-
     }
 
 }

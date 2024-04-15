@@ -17,5 +17,5 @@ public interface IRaffleStrategy {
      * @description
      * @date 2024/4/11 13:55
      */
-    RaffleAwardEntity perform(RaffleFactorEntity raffleFactorEntity);
+    RaffleAwardEntity performRaffle(RaffleFactorEntity raffleFactorEntity);
 }

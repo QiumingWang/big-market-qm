@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * @className: RaffleFactorEntity
  * @author: qiuming
- * @description: 抽奖因子, 对应用户
+ * @description: 抽奖因子, 与用户对应
  * @date: 2024/4/11 13:40
  */
 @Data
@@ -18,4 +18,6 @@ import lombok.NoArgsConstructor;
 public class RaffleFactorEntity {
     private String userId;
     private Long strategyId;
+    /** 奖品ID */
+    private Integer awardId;
 }

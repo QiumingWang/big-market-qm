@@ -28,15 +28,23 @@ public class StrategyEntity {
     /** 抽奖规则模型: rule_weigh, rule_blacklist*/
     private String ruleModels;
 
-
     // 与entity紧密结合的代码
+
+    /*
+     * @param:
+     * @return: List<String>
+     * @author: qiuming
+     * @description: 是否包含rule_weight和black_list
+     * @date: 2024/4/14 0:39
+     */
     public  String[] ruleModels(){
+        // 这里有的时候构造的时候会出现问题
         if (StringUtils.isBlank(ruleModels)) return null;
         return ruleModels.split(Constants.SPLIT);
     }
 
     /*
-     * @param :
+     * @param
      * @return String
      * @author qiuming
      * @description 查询是否包含rule_weight
@@ -44,8 +52,10 @@ public class StrategyEntity {
      */
     public String getRuleWeight() {
         String[] ruleModels = this.ruleModels();
+        if (null == ruleModels) return null;
         for (String ruleModel : ruleModels) {
-            if ("rule_weight".equals(ruleModel))  return ruleModel;
+            if ("rule_weight".equals(ruleModel))
+                return ruleModel;
         }
         return null;
     }

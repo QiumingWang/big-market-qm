@@ -10,6 +10,7 @@ import lombok.Data;
  */
 @Data
 public class RuleMatterEntity {
+    // 对应一个user + strategy rule
     /** 用户ID */
     private String userId;
     /** 策略ID */
