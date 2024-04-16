@@ -10,6 +10,8 @@ import cn.bugstack.domain.strategy.service.rule.tree.factory.DefaultTreeFactory;
  */
 public interface ILogicTreeNode {
     /**
+     * 责任链接口
+     *
      * @param userId: 用户ID
      * @param strategyId: 策略ID
      * @param awardId: 奖品ID

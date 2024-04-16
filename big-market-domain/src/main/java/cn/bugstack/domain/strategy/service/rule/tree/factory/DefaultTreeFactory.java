@@ -28,6 +28,11 @@ public class DefaultTreeFactory {
         this.logicTreeNodeGroup = logicTreeNodeGroup;
     }
 
+    /**
+     * @param ruleTreeVO:  规则树根节点相关信息
+     * @return IDecisionTreeEngine:  规则树
+     * @description: 构建一颗规则树
+     */
     public IDecisionTreeEngine openLogicTree(RuleTreeVO ruleTreeVO) {
         // 工厂模式只负责生产规则
         return new DecisionTreeEngine(logicTreeNodeGroup, ruleTreeVO);
@@ -38,7 +43,7 @@ public class DefaultTreeFactory {
     @Builder
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class StrategyAwardData {
+    public static class StrategyAwardVO {
         /** 抽奖奖品ID - 内部流转使用 */
         private Integer awardId;
         /** 抽奖奖品规则 */
@@ -52,6 +57,6 @@ public class DefaultTreeFactory {
     @NoArgsConstructor
     public static class TreeActionEntity {
         private RuleLogicCheckTypeVO ruleLogicCheckType;
-        private StrategyAwardData strategyAwardData;
+        private StrategyAwardVO strategyAwardVO;
     }
 }
