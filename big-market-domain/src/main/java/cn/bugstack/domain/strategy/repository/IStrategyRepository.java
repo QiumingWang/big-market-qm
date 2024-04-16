@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * @className: IStrategyRepository
  * @author: qiuming
- * @description: XXX
+ * @description: 策略查询类
  * @date: 2024/4/9 23:36
  */
 public interface IStrategyRepository {
@@ -31,6 +31,7 @@ public interface IStrategyRepository {
     StrategyRuleEntity queryStrategyRule(Long strategyId, String ruleModel);
 
     String queryStrategyRuleValue(Long strategyId, Integer awardId, String ruleModel);
+    String queryStrategyRuleValue(Long strategyId, String ruleModel);
 
     StrategyAwardRuleModelVO queryStrategyAwardRuleModel(Long strategyId, Integer awardId);
 }

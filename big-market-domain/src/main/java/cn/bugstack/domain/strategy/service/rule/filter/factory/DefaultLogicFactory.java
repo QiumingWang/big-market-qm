@@ -1,8 +1,8 @@
-package cn.bugstack.domain.strategy.service.rule.factory;
+package cn.bugstack.domain.strategy.service.rule.filter.factory;
 
 import cn.bugstack.domain.strategy.model.entity.RuleActionEntity;
 import cn.bugstack.domain.strategy.service.annotation.LogicStrategy;
-import cn.bugstack.domain.strategy.service.rule.ILogicFilter;
+import cn.bugstack.domain.strategy.service.rule.filter.ILogicFilter;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.core.annotation.AnnotationUtils;
@@ -14,8 +14,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 规则工厂, 对Entity进行过滤
- * @create 2023-12-31 11:23
+ * @description: 规则工厂, 对Entity进行过滤
+ * @date:  2023-12-31 11:23
  */
 @Service
 public class DefaultLogicFactory {
