@@ -12,10 +12,11 @@ public interface ILogicTreeNode {
     /**
      * 责任链接口
      *
-     * @param userId: 用户ID
-     * @param strategyId: 策略ID
-     * @param awardId: 奖品ID
+     * @param userId     : 用户ID
+     * @param strategyId : 策略ID
+     * @param awardId    : 奖品ID
+     * @param ruleValue
      * @return void:
      */
-    DefaultTreeFactory.TreeActionEntity logic(String userId, Long strategyId, Integer awardId);
+    DefaultTreeFactory.TreeActionEntity logic(String userId, Long strategyId, Integer awardId, String ruleValue);
 }

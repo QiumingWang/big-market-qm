@@ -17,15 +17,14 @@ import lombok.extern.slf4j.Slf4j;
  * @date: 2024/4/11 13:58
  */
 @Slf4j
-public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
+public abstract class AbstractRaffleStrategy implements IRaffleStrategy, IRaffleStock {
     // 策略仓储服务 -> domain层像一个大厨，仓储层提供米面粮油
     protected IStrategyRepository repository;
-
     // 策略调度服务 -> 只负责抽奖处理，通过新增接口的方式，隔离职责，不需要使用方关心或者调用抽奖的初始化
     protected IStrategyDispatch strategyDispatch;
-
-    // 策略调度，责任链模式
+    // 抽奖的责任链 -> 从抽奖的规则中，解耦出前置规则为责任链处理
     protected final DefaultChainFactory defaultLogicFactory;
+    // 抽奖的决策树 -> 负责抽奖中到抽奖后的规则过滤，如抽奖到A奖品ID，之后要做次数的判断和库存的扣减等。
     protected final DefaultTreeFactory defaultTreeFactory;
 
     public AbstractRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch,
@@ -38,10 +37,10 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
     }
 
     /**
+     * @description: 抽奖流程
      * @param raffleFactorEntity: 抽奖因子
      * @return RaffleAwardEntity: 抽奖结果
      * @author: qiuming
-     * @description: 抽奖流程
      * @date: 2024/4/16 11:33
      */
     @Override
@@ -83,12 +82,13 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
      * @return StrategyAwardVO: 奖品ID
      */
     public abstract DefaultChainFactory.StrategyAwardVO raffleLogicChain(String userId, Long strategyId);
+
     /**
      * 抽奖计算，规则树方法
      *
-     * @param userId: 用户ID
-     * @param strategyId: 策略ID
-     * @param awardId:   奖品ID
+     * @param userId:       用户ID
+     * @param strategyId:   策略ID
+     * @param awardId:      奖品ID
      * @return StrategyAwardVO: 过滤结果
      * @author: qiuming
      */

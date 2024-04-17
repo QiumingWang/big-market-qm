@@ -2,6 +2,7 @@ package cn.bugstack.domain.strategy.service.raffle;
 
 import cn.bugstack.domain.strategy.model.valobj.RuleTreeVO;
 import cn.bugstack.domain.strategy.model.valobj.StrategyAwardRuleModelVO;
+import cn.bugstack.domain.strategy.model.valobj.StrategyAwardStockKeyVO;
 import cn.bugstack.domain.strategy.repository.IStrategyRepository;
 import cn.bugstack.domain.strategy.service.AbstractRaffleStrategy;
 import cn.bugstack.domain.strategy.service.armory.IStrategyDispatch;
@@ -22,7 +23,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
 
-    public DefaultRaffleStrategy(IStrategyRepository repository, IStrategyDispatch strategyDispatch,
+    public DefaultRaffleStrategy(IStrategyRepository repository,
+                                 IStrategyDispatch strategyDispatch,
                                  DefaultChainFactory defaultChainFactory,
                                  DefaultTreeFactory defaultTreeFactory) {
         super(repository, strategyDispatch, defaultChainFactory, defaultTreeFactory);
@@ -54,4 +56,13 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
     }
 
 
+    @Override
+    public StrategyAwardStockKeyVO takeQueueValue() throws InterruptedException {
+        return repository.takeQueueValue();
+    }
+
+    @Override
+    public void updateStrategyAwardStock(Long strategyId, Integer awardId) {
+        repository.updateStrategyAwardStock(strategyId, awardId);
+    }
 }

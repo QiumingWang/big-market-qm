@@ -25,6 +25,15 @@ public class DefaultChainFactory {
         this.repository = repository;
     }
 
+    /**
+     * 返回链式抽奖方法
+     *
+     * @param strategyId:   策略ID
+     * @return ILogicChain: 链式抽奖方法
+     * @author: qiuming
+     * @description: 通过对象返回链式抽奖方法，其中包含黑名单，rule weight和default抽奖方法
+     * @date: 2024/4/17 16:11
+     */
     public ILogicChain openLogicChain(Long strategyId) {
         StrategyEntity strategy = repository.queryStrategyEntityByStrategyId(strategyId);
         String[] ruleModels = strategy.ruleModels();

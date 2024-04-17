@@ -29,12 +29,14 @@ public class DefaultTreeFactory {
     }
 
     /**
+     * 构建一颗规则树
+     *
      * @param ruleTreeVO:  规则树根节点相关信息
      * @return IDecisionTreeEngine:  规则树
-     * @description: 构建一颗规则树
+     * @description: 规则树里面包含 `次数锁`，`兜底幸运奖励`和`库存判断`
      */
     public IDecisionTreeEngine openLogicTree(RuleTreeVO ruleTreeVO) {
-        // 工厂模式只负责生产规则
+        // 工厂模式只负责生产规则，得到一个执行引擎
         return new DecisionTreeEngine(logicTreeNodeGroup, ruleTreeVO);
     }
 
