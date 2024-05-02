@@ -76,7 +76,9 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
             if (decisionLogic(matterValue, nodeLine))
                 return nodeLine.getRuleNodeTo(); // 下一个节点
         }
-        throw new RuntimeException("决策树引擎构建错误，nextNode计算失败，未找到可执行节点！");
+        // 兜底几点应该返回null
+        // throw new RuntimeException("决策树引擎构建错误，nextNode计算失败，未找到可执行节点！");
+        return null;
     }
 
     /**

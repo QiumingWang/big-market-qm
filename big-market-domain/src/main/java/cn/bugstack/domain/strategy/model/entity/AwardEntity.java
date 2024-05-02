@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 /**
  * @className: AwardEntity
  * @author: qiuming
- * @description: XXX
+ * @description: 奖品实体，不做具体的奖品发放
  * @date: 2024/4/11 14:05
  */
 @Data

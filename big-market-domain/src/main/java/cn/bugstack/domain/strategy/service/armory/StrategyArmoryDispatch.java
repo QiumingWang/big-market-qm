@@ -103,7 +103,8 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
         // 3. 使用 1 / 0.001 获取概率的范围，百分位，千分位，万分位
-        BigDecimal rateRange = totalAwardRate.divide(minAwardRate, 0, RoundingMode.CEILING);
+        //BigDecimal rateRange = totalAwardRate.divide(minAwardRate, 0, RoundingMode.CEILING);
+        BigDecimal rateRange = BigDecimal.valueOf(convert(minAwardRate.doubleValue()));
 
         // 4. 生成策略奖品概率查找表「这里指需要在list集合中，存放上对应的奖品占位即可，占位越多等于概率越高」
         List<Integer> strategyAwardSearchRateTables = new ArrayList<>(rateRange.intValue());
@@ -128,6 +129,19 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
         repository.storeStrategyAwardSearchRateTable(key, shuffleStrategyAwardSearchRateTable.size(), shuffleStrategyAwardSearchRateTable);
     }
 
+    /**
+     * 转换计算，只根据小数位来计算。如【0.01返回100】、【0.009返回1000】、【0.0018返回10000】
+     */
+    private double convert(double min) {
+        double current = min;
+        double max = 1;
+        while (current < 1) {
+            current = current * 10;
+            max = max * 10;
+        }
+        return max;
+    }
+
     /*
      * @param strategyId: 策略ID
      * @return Integer 得到的奖品ID
@@ -146,6 +160,11 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
     @Override
     public Integer getRandomAwardId(Long strategyId, String ruleWeightValue) {
         String key = String.valueOf(strategyId).concat("_").concat(ruleWeightValue);
+        return getRandomAwardId(key);
+    }
+
+    @Override
+    public Integer getRandomAwardId(String key) {
         // 分布式部署下，不一定为当前应用做的策略装配。也就是值不一定会保存到本应用，而是分布式应用，所以需要从 Redis 中获取。
         int rateRange = repository.getRateRange(key);
         // 通过生成的随机值，获取概率值奖品查找表的结果
