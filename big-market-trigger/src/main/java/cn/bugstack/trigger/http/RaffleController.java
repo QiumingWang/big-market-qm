@@ -32,7 +32,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @CrossOrigin("${app.config.cross-origin}")
-@RequestMapping("/api/${app.config.api-version}/raffle")
+@RequestMapping("/api/${app.config.api-version}/raffle")   // 自动监听接口
 public class RaffleController implements IRaffleService {
 
     /** 策略装配 */
