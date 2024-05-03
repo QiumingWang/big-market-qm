@@ -21,9 +21,9 @@ public class RaffleActivity {
     /** 活动描述 */
     private String activityDesc;
     /** 开始时间 */
-    private Date begin_dateTime;
+    private Date beginDateTime;
     /** 结束时间 */
-    private Date end_dateTime;
+    private Date endDateTime;
     /** 库存总量 */
     private Integer stockCount;
     /** 剩余库存 */

@@ -23,7 +23,7 @@ public class RaffleActivityOrder {
     /** 抽奖策略ID */
     private Long strategyId;
     /** 订单ID */
-    private Long orderId;
+    private String orderId;
     /** 下单时间 */
     private Date orderTime;
     /** 订单状态（not_used、used、expire） */
