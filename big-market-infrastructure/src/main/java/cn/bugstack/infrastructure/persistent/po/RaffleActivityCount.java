@@ -13,16 +13,16 @@ public class RaffleActivityCount {
     /** 自增ID */
     private Long id;
     /** 活动次数编号 */
-    private Long activity_count_id;
+    private Long activity_countId;
     /** 总次数 */
-    private Integer total_count;
+    private Integer totalCount;
     /** 日次数 */
-    private Integer day_count;
+    private Integer dayCount;
     /** 月次数 */
-    private Integer month_count;
+    private Integer monthCount;
     /** 创建时间 */
-    private Long create_time;
+    private Long createTime;
     /** 更新时间 */
-    private Long update_time;
+    private Long updateTime;
 
 }

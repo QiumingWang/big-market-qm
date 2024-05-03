@@ -15,21 +15,21 @@ public class RaffleActivityOrder {
     /** 自增ID */
     private Long id;
     /** 用户ID */
-    private String user_id;
+    private String userId;
     /** 活动ID */
-    private Long activity_id;
+    private Long activityId;
     /** 活动名称 */
-    private String activity_name;
+    private String activityName;
     /** 抽奖策略ID */
-    private Long strategy_id;
+    private Long strategyId;
     /** 订单ID */
-    private Long order_id;
+    private Long orderId;
     /** 下单时间 */
-    private Date order_time;
+    private Date orderTime;
     /** 订单状态（not_used、used、expire） */
     private String state;
     /** 创建时间 */
-    private Date create_time;
+    private Date createTime;
     /** 更新时间 */
-    private Date update_time;
+    private Date updateTime;
 }

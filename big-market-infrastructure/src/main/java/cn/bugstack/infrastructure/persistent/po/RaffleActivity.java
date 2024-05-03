@@ -15,27 +15,27 @@ public class RaffleActivity {
     /** 自增ID */
     private Long id;
     /** 活动ID */
-    private Long activity_id;
+    private Long activityId;
     /** 活动名称 */
-    private String activity_name;
+    private String activityName;
     /** 活动描述 */
-    private String activity_desc;
+    private String activityDesc;
     /** 开始时间 */
-    private Date begin_date_time;
+    private Date begin_dateTime;
     /** 结束时间 */
-    private Date end_date_time;
+    private Date end_dateTime;
     /** 库存总量 */
-    private Integer stock_count;
+    private Integer stockCount;
     /** 剩余库存 */
-    private Integer stock_count_surplus;
+    private Integer stockCountSurplus;
     /** 活动参与次数配置 */
-    private Long activity_count_id;
+    private Long activityCountId;
     /** 抽奖策略ID */
-    private Long strategy_id;
+    private Long strategyId;
     /** 活动状态 */
     private String state;
     /** 创建时间 */
-    private Date create_time;
+    private Date createTime;
     /** 更新时间 */
-    private Date update_time;
+    private Date updateTime;
 }

@@ -15,24 +15,24 @@ public class RaffleActivityAccountFlow {
     /** 自增ID */
     private Integer id;
     /** 用户ID */
-    private String user_id;
+    private String userId;
     /** 活动ID */
-    private Long activity_id;
+    private Long activityId;
     /** 总次数 */
-    private Integer total_count;
+    private Integer totalCount;
     /** 日次数 */
-    private Integer day_count;
+    private Integer dayCount;
     /** 月次数 */
-    private Integer month_count;
+    private Integer monthCount;
     /** 流水ID - 生成的唯一ID */
-    private String flow_id;
+    private String flowId;
     /** 流水渠道（activity-活动领取、sale-购买、redeem-兑换、free-免费赠送） */
-    private String flow_channel;
+    private String flowChannel;
     /** 业务ID（外部透传，活动ID、订单ID） */
-    private String biz_id;
+    private String bizId;
     /** 创建时间 */
-    private Date create_time;
+    private Date createTime;
     /** 更新时间 */
-    private Date update_time;
+    private Date updateTime;
 
 }
