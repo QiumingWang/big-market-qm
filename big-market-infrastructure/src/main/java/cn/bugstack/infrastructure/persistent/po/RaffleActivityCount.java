@@ -13,7 +13,7 @@ public class RaffleActivityCount {
     /** 自增ID */
     private Long id;
     /** 活动次数编号 */
-    private Long activity_countId;
+    private Long activityCountId;
     /** 总次数 */
     private Integer totalCount;
     /** 日次数 */

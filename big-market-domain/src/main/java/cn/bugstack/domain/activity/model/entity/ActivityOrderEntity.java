@@ -1,19 +1,24 @@
-package cn.bugstack.infrastructure.persistent.po;
+package cn.bugstack.domain.activity.model.entity;
 
+import cn.bugstack.domain.activity.model.valobj.OrderStateVO;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 /**
- * @className: RaffleActivityOrder
+ * @className: ActivityOrderEntity
  * @description: XXX
  * @author: qiuming
- * @date: 2024/5/3 20:47
+ * @date: 2024/5/4 17:51
  */
 @Data
-public class RaffleActivityOrder {
-    /** 自增ID */
-    private Long id;
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class ActivityOrderEntity {
     /** 用户ID */
     private String userId;
     /** 活动ID */
@@ -33,9 +38,5 @@ public class RaffleActivityOrder {
     /** 月次数 */
     private Integer monthCount;
     /** 订单状态（not_used、used、expire） */
-    private String state;
-    /** 创建时间 */
-    private Date createTime;
-    /** 更新时间 */
-    private Date updateTime;
+    private OrderStateVO state;
 }
