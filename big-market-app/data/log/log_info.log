@@ -1,27 +1,256 @@
-24-05-04.18:40:54.867 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 11444 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
-24-05-04.18:40:54.868 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
-24-05-04.18:40:55.892 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-05-04.18:40:55.895 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-05-04.18:40:55.936 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
-24-05-04.18:40:57.781 [main            ] INFO  Version                - Redisson 3.23.4
-24-05-04.18:40:58.406 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:40:58.501 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:41:01.027 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-05-04.18:41:01.112 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 6.651 seconds (JVM running for 7.873)
-24-05-04.18:41:01.240 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5aebe890] to prepare test instance [cn.bugstack.test.domain.activity.RaffleOrderTest@73be4cdd]
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.bugstack.test.domain.activity.RaffleOrderTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.bugstack.domain.activity.service.IRaffleOrder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
-	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+24-05-18.00:23:14.427 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 66604 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:23:14.428 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:23:16.250 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:23:16.252 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:23:16.293 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-05-18.00:23:18.389 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:23:19.015 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:23:19.112 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:23:21.429 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:23:21.515 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 7.837 seconds (JVM running for 9.92)
+24-05-18.00:23:21.904 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:23:22.744 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:27:01.379 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 42544 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:27:01.380 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:27:02.316 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:27:02.318 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:27:02.355 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-05-18.00:27:04.043 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:27:04.553 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:27:04.689 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:27:06.810 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:27:06.882 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.962 seconds (JVM running for 7.59)
+24-05-18.00:27:07.168 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:27:07.893 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:27:16.403 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:29:09.989 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m1s981ms444µs800ns).
+24-05-18.00:29:09.989 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:29:15.924 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 60216 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:29:15.925 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:29:16.969 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:29:16.973 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:29:17.015 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-05-18.00:29:18.758 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:29:19.276 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:29:19.382 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:29:21.759 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:29:21.827 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 6.372 seconds (JVM running for 7.483)
+24-05-18.00:29:22.110 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:29:22.766 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:29:28.285 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:29:39.974 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:30:02.906 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 58208 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:30:02.908 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:30:03.985 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:30:03.988 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:30:04.037 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+24-05-18.00:30:05.711 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:30:06.226 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:30:06.357 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:30:08.491 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:30:08.547 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 6.097 seconds (JVM running for 7.124)
+24-05-18.00:30:08.780 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:30:09.437 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:32:38.217 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 27316 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:32:38.218 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:32:39.197 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:32:39.201 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:32:39.249 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+24-05-18.00:32:41.110 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:32:41.660 [redisson-netty-2-6] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:32:41.753 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:32:58.730 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:32:58.828 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 21.078 seconds (JVM running for 22.236)
+24-05-18.00:32:59.124 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:32:59.825 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:33:23.688 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:35:37.363 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:35:37.363 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m37s431ms222µs300ns).
+24-05-18.00:41:35.142 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=5m57s778ms270µs600ns).
+24-05-18.00:41:41.038 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 46720 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:41:41.039 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:41:42.040 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:41:42.043 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:41:42.079 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-05-18.00:41:43.852 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:41:44.381 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:41:44.467 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:41:51.802 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:41:51.880 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 11.309 seconds (JVM running for 12.469)
+24-05-18.00:41:52.139 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:41:52.812 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:41:57.301 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:49:28.524 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=7m35s597ms3µs800ns).
+24-05-18.00:49:28.524 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:49:34.364 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 1552 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:49:34.366 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:49:35.468 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:49:35.471 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:49:35.510 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-05-18.00:49:37.430 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:49:37.995 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:49:38.100 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:49:43.542 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:49:43.619 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 9.713 seconds (JVM running for 10.773)
+24-05-18.00:49:43.891 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:49:44.601 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:49:47.871 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:49:58.296 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:50:00.613 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:50:04.282 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:50:04.283 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:50:04.324 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:50:04.473 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:52:03.221 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 18836 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:52:03.222 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:52:04.253 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:52:04.257 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:52:04.298 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-05-18.00:52:06.121 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:52:06.683 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:52:06.855 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:52:12.165 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:52:12.249 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 9.467 seconds (JVM running for 10.672)
+24-05-18.00:52:12.541 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:52:13.219 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:52:13.341 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:52:13.342 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:52:37.616 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:52:37.620 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:52:37.770 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:54:50.758 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 38684 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:54:50.759 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:54:51.559 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:54:51.563 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:54:51.594 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-05-18.00:54:53.116 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:54:53.595 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:54:53.703 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:54:55.526 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:54:55.584 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.218 seconds (JVM running for 6.088)
+24-05-18.00:54:55.823 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:54:56.478 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:54:56.584 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:54:56.584 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:54:56.588 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:54:56.729 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:55:50.800 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 62532 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:55:50.801 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:55:51.752 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:55:51.755 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:55:51.793 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-05-18.00:55:53.578 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:55:54.127 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:55:54.220 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:55:59.366 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:55:59.445 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 9.085 seconds (JVM running for 10.216)
+24-05-18.00:55:59.730 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:56:00.009 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:56:00.533 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:56:00.658 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:56:00.658 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:56:04.437 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:56:04.580 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:58:02.066 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:58:02.067 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m1s430ms772µs400ns).
+24-05-18.00:58:02.067 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m27s486ms39µs300ns).
+24-05-18.00:58:07.938 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 12580 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:58:07.939 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:58:08.908 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:58:08.911 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:58:08.948 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+24-05-18.00:58:10.732 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:58:11.272 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:58:11.369 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:58:16.921 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:58:17.004 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 9.513 seconds (JVM running for 10.624)
+24-05-18.00:58:17.292 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:58:17.990 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:58:18.114 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:58:18.115 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:58:20.197 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:58:20.203 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:58:20.321 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:58:31.381 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:58:31.420 [main            ] INFO  RaffleOrderTest        - 测试结果：352251907524
+24-05-18.00:58:43.730 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 6560 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:58:43.731 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:58:44.655 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:58:44.659 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:58:44.698 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-05-18.00:58:46.356 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:58:46.856 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:58:46.957 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:58:48.963 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:58:49.037 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.773 seconds (JVM running for 6.722)
+24-05-18.00:58:49.317 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:58:49.980 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:58:50.003 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.00:58:50.125 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:58:50.126 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:58:50.135 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:58:50.276 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:58:50.421 [main            ] ERROR ActivityRepository     - 写入订单记录，唯一索引冲突 userId: qiuming activityId: 100301 sku: 9011
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '700091009112' for key 'raffle_activity_order_002.uq_out_business_no'
+### The error may exist in file [E:\Project\Job\xfg\big-market\big-market-app\target\classes\mybatis\mapper\raffle_activity_order_mapper.xml]
+### The error may involve cn.bugstack.infrastructure.persistent.dao.IRaffleActivityOrderDao.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into raffle_activity_order_002         (user_id, sku, activity_id, activity_name, strategy_id, order_id, order_time, total_count, day_count, month_count, state, out_business_no, create_time, update_time)         values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), now())
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '700091009112' for key 'raffle_activity_order_002.uq_out_business_no'
+; Duplicate entry '700091009112' for key 'raffle_activity_order_002.uq_out_business_no'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '700091009112' for key 'raffle_activity_order_002.uq_out_business_no'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:247)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy103.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy117.insert(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
+	at com.sun.proxy.$Proxy118.insert(Unknown Source)
+	at cn.bugstack.infrastructure.persistent.repository.ActivityRepository.lambda$doSaveOrder$0(ActivityRepository.java:144)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at cn.bugstack.infrastructure.persistent.repository.ActivityRepository.doSaveOrder(ActivityRepository.java:141)
+	at cn.bugstack.infrastructure.persistent.repository.ActivityRepository$$FastClassBySpringCGLIB$$5fc4459a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.bugstack.infrastructure.persistent.repository.ActivityRepository$$EnhancerBySpringCGLIB$$b8ead52f.doSaveOrder(<generated>)
+	at cn.bugstack.domain.activity.service.RaffleActivityService.doSaveOrder(RaffleActivityService.java:30)
+	at cn.bugstack.domain.activity.service.AbstractRaffleActivity.createSkuRechargeOrder(AbstractRaffleActivity.java:68)
+	at cn.bugstack.test.domain.activity.RaffleOrderTest.test_createSkuRechargeOrder(RaffleOrderTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
@@ -40,93 +269,130 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
 	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
 	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.bugstack.domain.activity.service.IRaffleOrder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
-	... 29 common frames omitted
-24-05-04.18:43:19.104 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 22656 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
-24-05-04.18:43:19.105 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
-24-05-04.18:43:19.922 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-05-04.18:43:19.925 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-05-04.18:43:19.956 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-24-05-04.18:43:21.549 [main            ] INFO  Version                - Redisson 3.23.4
-24-05-04.18:43:22.062 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:43:22.151 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:43:24.227 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-05-04.18:43:24.289 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.625 seconds (JVM running for 6.507)
-24-05-04.18:43:24.367 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5aebe890] to prepare test instance [cn.bugstack.test.domain.activity.RaffleOrderTest@492c9892]
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.bugstack.test.domain.activity.RaffleOrderTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.bugstack.domain.activity.service.IRaffleOrder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
-	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
-	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
-	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
-	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
-	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
-	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.bugstack.domain.activity.service.IRaffleOrder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1357)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
-	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
-	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
-	... 29 common frames omitted
-24-05-04.18:45:08.619 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 27520 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
-24-05-04.18:45:08.621 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
-24-05-04.18:45:09.442 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-05-04.18:45:09.445 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-05-04.18:45:09.475 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-24-05-04.18:45:11.036 [main            ] INFO  Version                - Redisson 3.23.4
-24-05-04.18:45:11.542 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:45:11.630 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:45:13.494 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-05-04.18:45:13.560 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.303 seconds (JVM running for 6.193)
-24-05-04.18:45:13.804 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-24-05-04.18:45:14.540 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-24-05-04.18:46:12.334 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 40504 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
-24-05-04.18:46:12.335 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
-24-05-04.18:46:13.160 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-05-04.18:46:13.163 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-05-04.18:46:13.194 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
-24-05-04.18:46:14.803 [main            ] INFO  Version                - Redisson 3.23.4
-24-05-04.18:46:15.301 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:46:15.389 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
-24-05-04.18:46:17.306 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
-24-05-04.18:46:17.369 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.448 seconds (JVM running for 6.329)
-24-05-04.18:46:17.612 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-24-05-04.18:46:18.270 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-24-05-04.18:46:18.583 [main            ] INFO  AbstractRaffleActivity - 查询结果: {"activityCountId":11101,"activityId":100301,"sku":9011,"stockCount":0,"stockCountSurplus":0} {"activityDesc":"测试活动","activityId":100301,"activityName":"测试活动","beginDateTime":1709979310000,"endDateTime":2025512110000,"state":"create","strategyId":100006} {"activityCountId":11101,"dayCount":1,"monthCount":1,"totalCount":1}
-24-05-04.18:46:18.588 [main            ] INFO  RaffleOrderTest        - 测试结果: {}
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '700091009112' for key 'raffle_activity_order_002.uq_out_business_no'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy178.update(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 66 common frames omitted
+24-05-18.00:59:23.902 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 3672 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:59:23.903 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:59:24.928 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:59:24.931 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:59:24.975 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+24-05-18.00:59:26.699 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:59:27.204 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:59:27.316 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:59:29.578 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:59:29.665 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 6.226 seconds (JVM running for 7.435)
+24-05-18.00:59:36.800 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 11432 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.00:59:36.801 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.00:59:37.672 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.00:59:37.674 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.00:59:37.706 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-05-18.00:59:39.272 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.00:59:39.776 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:59:39.888 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.00:59:41.885 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.00:59:41.957 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.549 seconds (JVM running for 6.491)
+24-05-18.00:59:42.196 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:59:42.931 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:59:43.065 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.00:59:43.065 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.00:59:43.070 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.00:59:43.187 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.00:59:43.265 [main            ] INFO  RaffleOrderTest        - 测试结果：776044766679
+24-05-18.01:01:30.621 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 35152 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.01:01:30.622 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.01:01:31.449 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.01:01:31.452 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.01:01:31.483 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-05-18.01:01:33.106 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.01:01:33.602 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.01:01:33.680 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.01:01:35.862 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.01:01:35.927 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.735 seconds (JVM running for 6.716)
+24-05-18.01:01:36.179 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.01:01:36.843 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.01:01:36.974 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.01:01:36.974 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.01:01:36.979 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.01:01:37.152 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.01:01:37.267 [main            ] INFO  RaffleOrderTest        - 测试结果：834229390250
+24-05-18.01:05:23.883 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 29892 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.01:05:23.884 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.01:05:24.988 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.01:05:24.992 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.01:05:25.037 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-05-18.01:05:43.325 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 27116 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.01:05:43.326 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.01:05:44.275 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.01:05:44.279 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.01:05:44.316 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-05-18.01:05:46.128 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.01:05:46.666 [redisson-netty-2-5] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.01:05:46.770 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.01:05:52.583 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.01:05:52.658 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 9.769 seconds (JVM running for 10.869)
+24-05-18.01:05:52.968 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.01:05:53.716 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.01:05:53.838 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.01:05:53.838 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.01:05:56.320 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.01:05:56.325 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.01:05:56.412 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.01:06:05.244 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.01:06:36.188 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.01:06:45.138 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.01:08:03.199 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-05-18.01:08:03.199 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m29s279ms606µs500ns).
+24-05-18.01:08:03.199 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m27s11ms254µs300ns).
+24-05-18.01:08:03.201 [main            ] INFO  RaffleOrderTest        - 测试结果：336399633370
+24-05-18.01:08:03.207 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x21d8c22b, L:/172.31.71.62:10138 - R:47.120.8.26/47.120.8.26:16379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://47.120.8.26:16379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:256)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+24-05-18.01:08:15.565 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_231 on Trumen with PID 29052 (started by Admin in E:\Project\Job\xfg\big-market\big-market-app)
+24-05-18.01:08:15.565 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-05-18.01:08:16.379 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-05-18.01:08:16.382 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-05-18.01:08:16.415 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-05-18.01:08:17.918 [main            ] INFO  Version                - Redisson 3.23.4
+24-05-18.01:08:18.436 [redisson-netty-2-4] INFO  MasterPubSubConnectionPool - 1 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.01:08:18.558 [redisson-netty-2-13] INFO  MasterConnectionPool   - 5 connections initialized for 47.120.8.26/47.120.8.26:16379
+24-05-18.01:08:20.492 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+24-05-18.01:08:20.552 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.371 seconds (JVM running for 6.249)
+24-05-18.01:08:20.778 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.01:08:21.465 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.01:08:21.574 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-05-18.01:08:21.574 [main            ] INFO  ActivitySkuStockAction - 活动责任链-商品库存处理【校验&扣减】开始。
+24-05-18.01:08:21.578 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-05-18.01:08:21.708 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-05-18.01:08:21.785 [main            ] INFO  RaffleOrderTest        - 测试结果：292438192533

@@ -1,6 +1,5 @@
 package cn.bugstack.domain.activity.model.aggregate;
 
-import cn.bugstack.domain.activity.model.entity.ActivityAccountEntity;
 import cn.bugstack.domain.activity.model.entity.ActivityOrderEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,8 +17,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateOrderAggregate {
-    /** 活动账户实体 */
-    private ActivityAccountEntity activityAccountEntity;
+    /** 用户ID */
+    private String userId;
+    /** 活动ID */
+    private Long activityId;
+    /** 总次数 */
+    private Integer totalCount;
+    /** 日次数 */
+    private Integer dayCount;
+    /** 日次数-剩余 */
+    private Integer monthCount;
     /** 活动订单实体 */
     private ActivityOrderEntity activityOrderEntity;
 }
