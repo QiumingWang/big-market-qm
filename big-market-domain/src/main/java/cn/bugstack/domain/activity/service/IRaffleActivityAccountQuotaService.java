@@ -10,7 +10,7 @@ import cn.bugstack.domain.activity.model.entity.SkuRechargeEntity;
  * @author: qiuming
  * @date: 2024/5/4 17:25
  */
-public interface IRaffleOrder {
+public interface IRaffleActivityAccountQuotaService {
 
     /**
      * @description: 以用户ID和活动sku创建一笔订单
@@ -29,5 +29,5 @@ public interface IRaffleOrder {
      * @param skuRechargeEntity 活动商品充值实体对象
      * @return 活动ID
      */
-    String createSkuRechargeOrder(SkuRechargeEntity skuRechargeEntity);
+    String createOrder(SkuRechargeEntity skuRechargeEntity);
 }

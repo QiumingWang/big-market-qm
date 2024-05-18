@@ -1,25 +1,21 @@
-package cn.bugstack.infrastructure.persistent.po;
+package cn.bugstack.domain.activity.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
-
 /**
- * @className: RaffleActivityAccountMonth
- * @description: 抽奖次数月账户表
+ * @className: ActivityAccountEntity
+ * @description: 活动账户实体对象
  * @author: qiuming
- * @date: 2024/5/18 20:20
+ * @date: 2024/5/4 17:47
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RaffleActivityAccountMonth {
-    /** 自增ID */
-    private Integer id;
+public class ActivityAccountMonthEntity {
     /** 用户ID */
     private String userId;
     /** 活动ID */
@@ -30,9 +26,4 @@ public class RaffleActivityAccountMonth {
     private Integer monthCount;
     /** 月次数-剩余 */
     private Integer monthCountSurplus;
-    /** 创建时间 */
-    private Date createTime;
-    /** 更新时间 */
-    private Date updateTime;
-
 }

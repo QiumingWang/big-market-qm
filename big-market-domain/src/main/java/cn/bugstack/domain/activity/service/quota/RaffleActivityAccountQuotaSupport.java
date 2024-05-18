@@ -1,10 +1,10 @@
-package cn.bugstack.domain.activity.service;
+package cn.bugstack.domain.activity.service.quota;
 
 import cn.bugstack.domain.activity.model.entity.ActivityCountEntity;
 import cn.bugstack.domain.activity.model.entity.ActivityEntity;
 import cn.bugstack.domain.activity.model.entity.ActivitySkuEntity;
 import cn.bugstack.domain.activity.repository.IActivityRepository;
-import cn.bugstack.domain.activity.service.rule.factory.DefaultActivityChainFactory;
+import cn.bugstack.domain.activity.service.quota.rule.factory.DefaultActivityChainFactory;
 
 /**
  * @className: RaffleActivitySupport
@@ -12,13 +12,13 @@ import cn.bugstack.domain.activity.service.rule.factory.DefaultActivityChainFact
  * @author: qiuming
  * @date: 2024/5/17 22:18
  */
-public class RaffleActivitySupport {
+public class RaffleActivityAccountQuotaSupport {
     protected DefaultActivityChainFactory defaultActivityChainFactory;
     protected IActivityRepository activityRepository;
 
     //NOTE: Spring 推荐使用构造注入：spring.io中有
-    public RaffleActivitySupport(DefaultActivityChainFactory defaultActivityChainFactory,
-                                 IActivityRepository activityRepository){
+    public RaffleActivityAccountQuotaSupport(DefaultActivityChainFactory defaultActivityChainFactory,
+                                             IActivityRepository activityRepository){
         this.defaultActivityChainFactory = defaultActivityChainFactory;
         this.activityRepository = activityRepository;
     }

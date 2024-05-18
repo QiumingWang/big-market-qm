@@ -8,7 +8,7 @@ import cn.bugstack.domain.activity.model.valobj.ActivitySkuStockKeyVO;
  * @author: qiuming
  * @date: 2024/5/18 16:36
  */
-public interface ISkuStock {
+public interface IRaffleActivitySkuStockService {
 
 
     /**
