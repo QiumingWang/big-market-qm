@@ -2,6 +2,8 @@ package cn.bugstack.infrastructure.persistent.redis;
 
 import org.redisson.api.*;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Redis 服务
  *
@@ -257,4 +259,7 @@ public interface IRedisService {
 
     /** 设置一个锁 */
     Boolean setNx(String key);
+
+    /** 设置时间锁 */
+    Boolean setNx(String key, long expire, TimeUnit timeUnit);
 }

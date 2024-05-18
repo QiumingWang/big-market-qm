@@ -40,7 +40,7 @@ public abstract class AbstractRaffleActivity extends RaffleActivitySupport imple
 
     @Override
     public String createSkuRechargeOrder(SkuRechargeEntity skuRechargeEntity) {
-        // 1. 参数教研
+        // 1. 参数校验
         String userId = skuRechargeEntity.getUserId();
         Long sku = skuRechargeEntity.getSku();
         String outBusinessNo = skuRechargeEntity.getOutBusinessNo();
@@ -59,7 +59,7 @@ public abstract class AbstractRaffleActivity extends RaffleActivitySupport imple
 
         // 3. 校验活动规则
         IActionChain actionChain = this.defaultActivityChainFactory.openActionChain();
-        boolean success = actionChain.action(activitySkuEntity, activityEntity, activityCountEntity);
+        actionChain.action(activitySkuEntity, activityEntity, activityCountEntity);
 
         // 4. 构建订单聚合对象
         CreateOrderAggregate createOrderAggregate = buildOrderAggregate(skuRechargeEntity, activitySkuEntity, activityEntity, activityCountEntity);

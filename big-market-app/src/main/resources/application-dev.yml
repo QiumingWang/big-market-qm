@@ -15,6 +15,20 @@ app:
     # 跨宇，开发阶段可以市值为 * 不限制
     cross-origin: '*'
 
+# Spring 配置: rabbitmq
+spring:
+  rabbitmq:
+    addresses: 47.120.8.26
+    port: 5672
+    username: admin
+    password: admin
+    listener:
+      simple:
+        prefetch: 1  # 每次投递n个消息，消费完再投递n个
+    topic:
+      activity_sku_stock_zero: activity_sku_stock_zero
+
+
 # 线程池配置
 thread:
   pool:
