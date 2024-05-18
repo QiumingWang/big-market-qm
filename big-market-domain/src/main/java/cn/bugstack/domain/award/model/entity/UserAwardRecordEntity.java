@@ -1,19 +1,24 @@
-package cn.bugstack.infrastructure.persistent.po;
+package cn.bugstack.domain.award.model.entity;
 
+import cn.bugstack.domain.award.model.valobj.AwardStateVO;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 /**
- * @className: UserAwardRecord
- * @description: 用户奖品发放表
+ * @className: UserAwardRecordEntity
+ * @description: 用户中奖实体对象
  * @author: qiuming
- * @date: 2024/5/18 20:21
+ * @date: 2024/5/19 21:12
  */
 @Data
-public class UserAwardRecord {
-    /** 自增ID */
-    private String id;
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class UserAwardRecordEntity {
     /** 用户ID */
     private String userId;
     /** 活动ID */
@@ -29,9 +34,5 @@ public class UserAwardRecord {
     /** 中奖时间 */
     private Date awardTime;
     /** 奖品状态；create-创建、completed-发奖完成 */
-    private String awardState;
-    /** 创建时间 */
-    private Date createTime;
-    /** 更新时间 */
-    private Date updateTime;
+    private AwardStateVO awardState;
 }
