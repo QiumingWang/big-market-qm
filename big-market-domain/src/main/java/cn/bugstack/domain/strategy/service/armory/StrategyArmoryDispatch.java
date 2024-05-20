@@ -72,9 +72,14 @@ public class StrategyArmoryDispatch implements IStrategyArmory, IStrategyDispatc
             // 添加规则装配
             assembleLotteryStrategy(String.valueOf(strategyId).concat("_").concat(key), strategyAwardEntitiesClone);
         }
-        //
 
         return true;
+    }
+
+    @Override
+    public boolean assembleLotteryStrategyByActivityId(Long activityId) {
+        Long strategyId = repository.queryStrategyIdByActivityId(activityId);
+        return assembleLotteryStrategy(strategyId);
     }
 
     /**

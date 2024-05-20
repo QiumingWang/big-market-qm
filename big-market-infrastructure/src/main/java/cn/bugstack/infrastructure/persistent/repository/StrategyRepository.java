@@ -46,6 +46,10 @@ public class StrategyRepository implements IStrategyRepository {
     private IRuleTreeNodeDao ruleTreeNodeDao;
     @Resource
     private IRuleTreeNodeLineDao ruleTreeNodeLineDAO;
+    @Resource
+    private IRaffleActivityDao raffleActivityDao;
+    @Resource
+    private IRaffleActivityAccountDayDao raffleActivityAccountDayDao;
 
 
     @Override
@@ -317,5 +321,27 @@ public class StrategyRepository implements IStrategyRepository {
         // 缓存保存
         redisService.setValue(cacheKey, strategyAwardEntity);
         return strategyAwardEntity;
+    }
+
+    @Override
+    public Long queryStrategyIdByActivityId(Long activityId) {
+        return raffleActivityDao.queryRaffleStrategyIdByActivityId(activityId);
+    }
+
+    @Override
+    public int queryTodayUserRaffleCount(String userId, Long strategyId) {
+        // 根据策略查询活动ID
+        Long activityId = raffleActivityDao.queryRaffleActivityIdByStrategyId(strategyId);
+        // 封装参数
+        RaffleActivityAccountDay raffleActivityAccountDayReq = new RaffleActivityAccountDay();
+        raffleActivityAccountDayReq.setUserId(userId);
+        raffleActivityAccountDayReq.setActivityId(activityId);
+        raffleActivityAccountDayReq.setDay(raffleActivityAccountDayReq.currentDay());
+
+        RaffleActivityAccountDay raffleActivityAccountDayRes = raffleActivityAccountDayDao.queryActivityAccountDayByUserId(raffleActivityAccountDayReq);
+
+        if (null == raffleActivityAccountDayRes) return 0;
+        // 总次数 - 剩余次数 = 今日参与的
+        return raffleActivityAccountDayRes.getDayCount() - raffleActivityAccountDayRes.getDayCountSurplus();
     }
 }

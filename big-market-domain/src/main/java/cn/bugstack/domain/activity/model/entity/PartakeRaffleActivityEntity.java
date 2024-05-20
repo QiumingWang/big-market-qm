@@ -1,9 +1,6 @@
 package cn.bugstack.domain.activity.model.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 /**
  * @className: PartakeRaffleActivityEntity
@@ -12,7 +9,7 @@ import lombok.NoArgsConstructor;
  * @date: 2024/5/18 21:07
  */
 @Data
-@Getter
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class PartakeRaffleActivityEntity {

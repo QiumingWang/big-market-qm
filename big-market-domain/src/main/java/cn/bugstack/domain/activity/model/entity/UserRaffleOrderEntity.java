@@ -25,7 +25,7 @@ public class UserRaffleOrderEntity {
     private Long activityId;
     /** 抽奖策略ID */
     private String activityName;
-    /** 订单ID */
+    /** 策略ID */
     private Long strategyId;
     /** 下单时间 */
     private String orderId;

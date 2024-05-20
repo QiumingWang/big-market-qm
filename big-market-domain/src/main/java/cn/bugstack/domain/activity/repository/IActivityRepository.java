@@ -6,6 +6,7 @@ import cn.bugstack.domain.activity.model.entity.*;
 import cn.bugstack.domain.activity.model.valobj.ActivitySkuStockKeyVO;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @className: IActivityRepository
@@ -45,4 +46,6 @@ public interface IActivityRepository {
     ActivityAccountMonthEntity queryRaffleActivityAccountMonthByUserId(String userId, Long activityId, String month);
 
     ActivityAccountDayEntity queryRaffleActivityAccountDayByUserId(String userId, Long activityId, String day);
+
+    List<ActivitySkuEntity> queryActivitySkuListByActivityId(Long activityId);
 }

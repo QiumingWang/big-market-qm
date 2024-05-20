@@ -24,7 +24,9 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -420,6 +422,23 @@ public class ActivityRepository implements IActivityRepository {
                 .dayCount(raffleActivityAccountDayRes.getDayCount())
                 .dayCountSurplus(raffleActivityAccountDayRes.getDayCountSurplus())
                 .build();
+    }
+
+    @Override
+    public List<ActivitySkuEntity> queryActivitySkuListByActivityId(Long activityId) {
+        List<RaffleActivitySku> raffleActivitySkuList = raffleActivitySkuDao.queryActivitySkuListByActivityId();
+        List<ActivitySkuEntity> activitySkuEntityList = new ArrayList<>();
+        for (RaffleActivitySku raffleActivitySku: raffleActivitySkuList) {
+            ActivitySkuEntity activitySkuEntity = new ActivitySkuEntity();
+            activitySkuEntity.setActivityCountId(raffleActivitySku.getActivityCountId());
+            activitySkuEntity.setSku(raffleActivitySku.getSku());
+            activitySkuEntity.setStockCount(raffleActivitySku.getStockCount());
+            activitySkuEntity.setStockCountSurplus(raffleActivitySku.getStockCountSurplus());
+
+            activitySkuEntityList.add(activitySkuEntity);
+        }
+
+        return activitySkuEntityList;
     }
 
 

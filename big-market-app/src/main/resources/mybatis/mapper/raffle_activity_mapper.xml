@@ -21,6 +21,12 @@
         from raffle_activity
         where activity_id = #{activityId}
     </select>
+    <select id="queryRaffleStrategyIdByActivityId" parameterType="java.lang.Long" resultType="java.lang.Long">
+        SELECT strategy_id FROM raffle_activity WHERE activity_id = #{activityId}
+    </select>
+    <select id="queryRaffleActivityIdByStrategyId" resultType="java.lang.Long">
+        SELECT activity_id FROM raffle_activity WHERE strategy_id = #{strategyId}
+    </select>
 
 
 </mapper>

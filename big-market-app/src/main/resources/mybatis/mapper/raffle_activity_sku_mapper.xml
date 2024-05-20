@@ -18,6 +18,11 @@
         from raffle_activity_sku
         where sku=#{sku}
     </select>
+    <select id="queryActivitySkuListByActivityId" parameterType="java.lang.Long" resultMap="dataMap">
+        SELECT sku, activity_count_id, stock_count, stock_count_surplus
+        FROM raffle_activity_sku
+        WHERE activity_id = #{activityId}
+    </select>
 
     <update id="clearActivitySkuStock" parameterType="java.lang.Long">
         UPDATE raffle_activity_sku

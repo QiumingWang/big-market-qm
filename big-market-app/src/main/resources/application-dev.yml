@@ -12,7 +12,7 @@ app:
   config:
     # 版本， 方便通过接口版本升级
     api-version: v1
-    # 跨宇，开发阶段可以市值为 * 不限制
+    # 跨宇，开发阶段可以设置为 * 不限制
     cross-origin: '*'
 
 # Spring 配置: rabbitmq

@@ -23,6 +23,12 @@
               )
     </insert>
 
+    <update id="updateUserRaffleOrderStateUsed" parameterType="cn.bugstack.infrastructure.persistent.po.UserRaffleOrder">
+        UPDATE user_raffle_order
+        SET order_state = 'used', update_time = NOW()
+        WHERE user_id = #{userId} and order_id = #{orderId} and order_state = 'create'
+    </update>
+
 
     <select id="queryNoUsedRaffleOrder" parameterType="cn.bugstack.infrastructure.persistent.po.UserRaffleOrder" resultMap="dataMap">
         SELECT user_id, activity_id, activity_name, strategy_id, order_id, order_time, order_state
