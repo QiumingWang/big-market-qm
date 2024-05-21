@@ -145,7 +145,7 @@ public class RaffleStrategyController implements IRaffleStrategyService {
     }
 
     /**
-     * 随机抽奖接口
+     * 随机抽奖接口，测试使用
      * <a href="http://localhost:8091/api/v1/raffle/random_raffle">/api/v1/raffle/random_raffle</a>
      *
      * @param request 请求参数 {"strategyId":1000001}

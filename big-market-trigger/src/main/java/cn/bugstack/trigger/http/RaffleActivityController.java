@@ -116,11 +116,11 @@ public class RaffleActivityController implements IRaffleActivityService {
             UserRaffleOrderEntity userRaffleOrderEntity = raffleActivityPartakeService.createOrder(userId, activityId);
             log.info("活动抽奖，创建订单 userID: {}, activityID: {}", userId, activityId);
 
-
             // 3. 抽奖策略 - 执行抽奖
             RaffleAwardEntity raffleAwardEntity = raffleStrategy.performRaffle(RaffleFactorEntity.builder()
                     .userId(userId)
                     .strategyId(userRaffleOrderEntity.getStrategyId())
+                    .endTime(userRaffleOrderEntity.getEndTime())
                     .build());
 
             // 4. 存放结果 - 写入中奖记录

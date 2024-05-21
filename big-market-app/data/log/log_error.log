@@ -2542,3 +2542,890 @@
 24-05-20.00:01:31.291 [main            ] ERROR AwardRepository        - 写入中奖记录，发送MQ消息失败 userId: qiuming topic: send_award
 24-05-20.00:01:31.933 [main            ] ERROR AwardRepository        - 写入中奖记录，发送MQ消息失败 userId: qiuming topic: send_award
 24-05-20.00:01:32.572 [main            ] ERROR AwardRepository        - 写入中奖记录，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.589 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.590 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.595 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.598 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.755 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.764 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.767 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.775 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.782 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.783 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.797 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.798 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.803 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.806 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.817 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.828 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.844 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.844 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.844 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.851 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.853 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.863 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.873 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.879 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.953 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.957 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.961 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.973 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.973 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.976 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.976 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.983 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.983 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.992 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:20.998 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.000 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.000 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.005 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.006 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.009 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.024 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.030 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.031 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.041 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.081 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.092 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.093 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.104 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.105 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.112 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.113 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.114 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.115 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.121 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.121 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.129 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.141 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.142 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.142 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.143 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.153 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.154 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.164 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.186 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.193 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.201 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.215 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.219 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.223 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.230 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.235 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.235 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.236 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.241 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.244 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.245 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.257 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.258 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.260 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.263 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.267 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.270 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.275 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.299 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.300 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.317 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.319 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.325 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.328 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.333 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.342 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.343 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.343 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.347 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.350 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.354 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.360 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.364 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.367 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.374 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.373 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.376 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.379 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.399 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.401 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.422 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.423 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.423 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.424 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.425 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.436 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.443 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.448 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.449 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.450 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.450 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.456 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.458 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.471 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.471 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.475 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.477 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.486 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.486 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:21.504 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.507 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.508 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.525 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.527 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.530 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.545 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.545 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.548 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.550 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.560 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.560 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.560 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.569 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.574 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.575 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.600 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.601 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.613 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.621 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.650 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.652 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.677 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.679 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.679 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.692 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.692 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.704 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.706 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.717 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.730 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.730 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.733 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.777 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.777 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.787 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.787 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.794 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.799 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.803 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.803 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.804 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.812 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.814 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.814 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.818 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.826 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.849 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.864 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.905 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.912 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.913 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.919 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.934 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.942 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.951 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.956 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.962 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.967 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:21.992 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.003 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.016 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.022 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.034 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.038 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.038 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.041 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.048 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.054 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.054 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.077 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.081 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.093 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.096 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.117 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.120 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.124 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.139 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.139 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.160 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.161 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.164 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.206 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.213 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.213 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.223 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.236 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.248 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.249 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.259 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.260 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.272 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.274 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.275 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.275 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:22.279 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:22.281 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.107 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.107 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.107 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.107 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.107 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.107 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.108 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.108 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.108 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.115 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.115 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.116 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.117 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.117 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.119 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.128 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.129 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.133 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.135 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.135 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.158 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.171 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.171 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.172 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.176 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.176 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.176 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.176 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.178 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.179 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.179 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.179 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.183 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.188 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.189 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.193 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.200 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.204 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.205 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.206 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.228 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.232 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.232 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.235 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.236 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.237 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.240 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.240 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.242 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.244 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.247 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.249 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.250 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.252 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.256 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.257 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.265 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.266 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.269 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.274 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.282 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.289 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.290 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.306 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.306 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.306 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.306 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.321 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.321 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.321 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.322 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.329 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.329 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.329 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.333 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.334 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.342 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.352 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.354 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.354 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.365 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.365 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.369 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.370 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.372 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.374 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.378 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.378 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.378 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.379 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.387 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.390 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.390 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.390 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.392 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.397 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.403 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.404 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.405 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.415 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.417 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.421 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.422 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.427 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.432 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.434 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.436 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.440 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.441 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.442 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.446 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.447 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.451 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.454 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.471 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.471 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.471 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.472 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.472 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.474 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.487 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.487 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.490 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.495 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.496 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.496 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.496 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.503 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.505 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.508 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.516 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.516 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.516 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.530 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.530 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.531 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.534 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.535 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.542 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.546 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:25.549 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.549 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.552 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.556 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.556 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.560 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.565 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.569 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.576 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.576 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.577 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.583 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.586 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.588 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.588 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.588 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.591 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.595 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.596 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.599 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.601 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.604 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.606 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.612 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.616 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.621 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.630 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.630 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.638 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.651 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.664 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.682 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.691 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.691 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.692 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.710 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.719 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.748 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.749 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.753 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.761 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.761 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.780 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.802 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.808 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.810 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.827 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.834 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.843 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.852 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.852 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.858 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.859 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.860 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.862 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.864 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.864 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.866 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.867 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.873 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.873 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.873 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.873 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.906 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.908 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.912 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.917 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.922 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.928 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.964 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.972 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.975 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.983 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.992 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:25.996 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.021 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.031 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.048 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.058 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.069 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.077 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.084 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.084 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.097 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.099 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.100 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.110 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.111 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.115 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.120 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.120 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.123 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.123 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:26.123 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.127 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.129 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:26.143 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.192 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.192 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.192 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.192 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.192 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.193 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.193 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.193 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.201 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.201 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.201 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.202 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.202 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.202 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.202 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.203 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.204 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.211 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.211 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.220 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.232 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.233 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.234 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.239 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.239 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.241 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.242 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.242 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.242 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.246 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.252 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.254 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.255 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.259 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.259 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.260 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.261 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.261 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.262 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.268 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.277 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.277 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.279 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.287 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.287 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.289 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.290 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.291 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.294 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.295 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.296 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.303 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.309 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.315 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.315 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.334 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.347 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.347 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.347 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.363 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.363 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.363 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.363 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.364 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.363 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.364 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.366 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.366 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.370 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.370 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.373 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.381 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.383 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.399 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.399 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.400 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.404 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.406 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.407 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.411 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.413 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.421 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.423 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.423 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.423 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.423 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.423 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.423 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.424 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.428 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.435 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.439 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.444 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.448 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.455 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.456 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.457 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.459 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.463 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.463 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.464 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.470 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.470 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.473 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.478 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.479 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.480 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.482 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.482 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.487 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.490 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.491 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.493 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.496 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.499 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.503 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.510 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.510 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.514 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.521 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.522 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.522 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.524 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.526 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.526 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.529 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.534 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.537 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.539 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.539 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.540 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.540 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.548 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.549 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.549 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.557 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.559 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.560 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.568 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.571 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.571 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.571 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.572 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:30.579 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.580 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.583 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.589 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.591 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.592 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.592 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.592 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.595 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.595 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.595 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.604 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.606 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.611 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.612 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.634 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.634 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.636 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.636 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.637 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.637 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.647 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.661 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.678 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.678 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:30.678 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.463 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.463 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.462 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.463 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.472 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.475 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.629 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.640 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.647 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.651 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.653 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.670 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.672 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.673 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.678 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.693 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.698 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.699 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.700 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.701 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.717 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.725 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.726 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.727 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.736 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.749 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.849 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.849 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.856 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.867 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.879 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.879 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.879 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.889 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.892 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.899 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.902 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.903 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.905 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.920 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.923 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.926 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.929 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.937 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.948 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:45.951 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.004 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.006 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.016 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.020 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.025 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.026 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.031 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.034 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.039 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.041 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.045 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.046 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.048 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.049 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.055 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.059 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.062 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.068 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.070 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.076 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.119 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.138 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.139 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.140 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.140 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.147 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.149 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.151 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.158 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.161 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.168 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.172 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.174 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.175 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.180 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.181 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.185 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.201 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.206 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.224 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.246 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.246 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.260 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.261 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.262 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.266 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.269 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.271 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.275 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.276 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.279 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.281 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.285 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.305 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.305 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.305 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.309 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.310 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.314 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.345 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.349 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.356 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.356 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.381 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.382 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.382 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.384 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.384 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.386 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.386 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.390 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.391 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.406 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.407 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.409 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.415 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.419 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.421 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.425 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.440 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.450 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.450 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.457 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.471 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.471 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.472 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.472 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.472 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.496 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.496 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.504 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.504 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.504 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.505 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.507 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.520 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.524 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.532 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.537 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.539 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.555 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.555 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.562 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.563 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.569 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.570 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.570 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.585 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.586 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.586 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.595 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.600 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.604 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.613 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.616 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.622 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.623 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.629 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.645 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.652 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.652 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.660 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.660 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.660 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.660 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.661 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.668 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.670 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.674 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.675 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.690 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.690 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.700 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.702 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.713 [pool-3-thread-17] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.713 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.720 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.728 [pool-3-thread-2 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.728 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.735 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.736 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.737 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.741 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.745 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.750 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.762 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.768 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.780 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.783 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.803 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.809 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.811 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.815 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.833 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.840 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.840 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.855 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.868 [pool-3-thread-9 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.868 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.885 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.890 [pool-3-thread-11] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.890 [pool-3-thread-16] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.900 [pool-3-thread-12] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.919 [pool-3-thread-8 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.920 [pool-3-thread-19] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.920 [pool-3-thread-14] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.921 [pool-3-thread-1 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.943 [pool-3-thread-18] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.957 [pool-3-thread-15] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.959 [pool-3-thread-7 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.959 [pool-3-thread-20] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:46.967 [pool-3-thread-6 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.972 [pool-3-thread-4 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.973 [pool-3-thread-13] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.978 [pool-3-thread-10] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:42:46.992 [pool-3-thread-5 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: xiaofuge topic: send_award
+24-05-21.22:42:47.011 [pool-3-thread-3 ] ERROR SendMessageTaskJob     - 定时任务，发送MQ消息失败 userId: qiuming topic: send_award
+24-05-21.22:47:24.295 [main            ] ERROR AwardRepository        - 写入中奖记录，发送MQ消息失败 userId: xiaofuge topic: send_award

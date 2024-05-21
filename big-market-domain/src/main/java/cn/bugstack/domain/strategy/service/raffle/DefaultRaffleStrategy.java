@@ -17,6 +17,7 @@ import cn.bugstack.domain.strategy.service.rule.tree.factory.engine.IDecisionTre
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -44,7 +45,7 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
     }
 
     @Override
-    public DefaultTreeFactory.StrategyAwardVO raffleLogicTree(String userId, Long strategyId, Integer awardId) {
+    public DefaultTreeFactory.StrategyAwardVO raffleLogicTree(String userId, Long strategyId, Integer awardId, Date expiredDate) {
         StrategyAwardRuleModelVO strategyAwardRuleModelVO = repository.queryStrategyAwardRuleModel(strategyId, awardId);
         // 没有配置后置规则
         if (null == strategyAwardRuleModelVO)
@@ -59,7 +60,12 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy implements IRa
         }
 
         IDecisionTreeEngine decisionTreeEngine = defaultTreeFactory.openLogicTree(ruleTreeVO);
-        return decisionTreeEngine.process(userId, strategyId, awardId);
+        return decisionTreeEngine.process(userId, strategyId, awardId, expiredDate);
+    }
+
+    @Override
+    public DefaultTreeFactory.StrategyAwardVO raffleLogicTree(String userId, Long strategyId, Integer awardId) {
+        return raffleLogicTree(userId, strategyId, awardId, null);
     }
 
 

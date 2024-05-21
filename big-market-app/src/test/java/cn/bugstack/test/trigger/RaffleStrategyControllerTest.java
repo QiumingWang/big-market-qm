@@ -1,4 +1,4 @@
-package cn.bugstack.test.domain.trigger;
+package cn.bugstack.test.trigger;
 
 import cn.bugstack.trigger.api.IRaffleStrategyService;
 import cn.bugstack.trigger.api.dto.RaffleAwardListRequestDTO;
