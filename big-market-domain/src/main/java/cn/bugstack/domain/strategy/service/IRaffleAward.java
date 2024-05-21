@@ -12,5 +12,19 @@ import java.util.List;
  */
 public interface IRaffleAward {
 
+    /**
+     * 使用策略查询 奖品信息
+     *
+     * @param strategyId: 策略ID
+     * @return List<StrategyAwardEntity>: 奖品信息
+     */
     List<StrategyAwardEntity> queryRaffleStrategyAwardList(Long strategyId);
+
+    /**
+     * 使用活动查询 奖品信息
+     * @param activityId: 活动ID
+     * @return List<StrategyAwardEntity>: 奖品信息
+     */
+    List<StrategyAwardEntity> queryRaffleStrategyAwardListByActivityId(Long activityId);
+
 }

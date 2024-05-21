@@ -441,6 +441,17 @@ public class ActivityRepository implements IActivityRepository {
         return activitySkuEntityList;
     }
 
+    @Override
+    public Integer queryRaffleActivityAccountDayPartakeCount(String userId, Long activityId) {
+        RaffleActivityAccountDay request = new RaffleActivityAccountDay();
+        request.setUserId(userId);
+        request.setActivityId(activityId);
+        request.setDay(request.currentDay());
+
+        Integer dayPartakeCount = raffleActivityAccountDayDao.queryRaffleActivityAccountDayPartakeCount(request);
+        return null == dayPartakeCount? 0: dayPartakeCount;
+    }
+
 
     @Override
     public UserRaffleOrderEntity queryNoUsedRaffleOrder(PartakeRaffleActivityEntity partakeRaffleActivityEntity) {

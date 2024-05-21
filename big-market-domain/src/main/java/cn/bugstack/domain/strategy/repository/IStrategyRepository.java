@@ -67,4 +67,12 @@ public interface IStrategyRepository {
     Long queryStrategyIdByActivityId(Long activityId);
 
     int queryTodayUserRaffleCount(String userId, Long strategyId);
+
+    /**
+     * 返回抽奖节点的**次数锁**限制条件
+     *
+     * @param treeIds:
+     * @return Map<String, Integer>:
+     */
+    Map<String, Integer> queryAwardRuleLockCount(String[] treeIds);
 }

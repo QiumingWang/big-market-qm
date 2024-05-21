@@ -56,12 +56,11 @@ public class StrategyRepository implements IStrategyRepository {
     public List<StrategyAwardEntity> queryStrategyAwardList(Long strategyId) {
         // 添加到redis缓存中去
         String cacheKey = Constants.RedisKey.STRATEGY_AWARD_LIST_KEY + strategyId;
-
         List<StrategyAwardEntity> strategyAwardEntities = redisService.getValue(cacheKey);
-
         if (strategyAwardEntities != null && !strategyAwardEntities.isEmpty()) {
             return strategyAwardEntities;
         }
+
         // 从库中读取数据
         List<StrategyAward> strategyAwards = strategyAwardDao.queryStrategyAwardListByStrategyId(strategyId);
         strategyAwardEntities = new ArrayList<>(strategyAwards.size());
@@ -75,6 +74,7 @@ public class StrategyRepository implements IStrategyRepository {
                     .awardCountSurplus(strategyAward.getAwardCountSurplus())
                     .awardRate(strategyAward.getAwardRate())
                     .sort(strategyAward.getSort())
+                    .ruleModels(strategyAward.getRuleModels())
                     .build();
             strategyAwardEntities.add(strategyAwardEntity);
         }
@@ -343,5 +343,20 @@ public class StrategyRepository implements IStrategyRepository {
         if (null == raffleActivityAccountDayRes) return 0;
         // 总次数 - 剩余次数 = 今日参与的
         return raffleActivityAccountDayRes.getDayCount() - raffleActivityAccountDayRes.getDayCountSurplus();
+    }
+
+    @Override
+    public Map<String, Integer> queryAwardRuleLockCount(String[] treeIds) {
+        if (null == treeIds || treeIds.length == 0)  return new HashMap<>();
+
+        List<RuleTreeNode> ruleTreeNodes = ruleTreeNodeDao.queryRuleLocks(treeIds);
+        Map<String, Integer> ruleLockCounts = new HashMap<>();
+
+        for (RuleTreeNode treeNode: ruleTreeNodes) {
+            String treeId = treeNode.getTreeId();
+            Integer value = Integer.valueOf(treeNode.getRuleValue());
+            ruleLockCounts.put(treeId, value);
+        }
+        return ruleLockCounts;
     }
 }
