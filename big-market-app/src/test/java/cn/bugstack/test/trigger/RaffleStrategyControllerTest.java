@@ -31,7 +31,7 @@ public class RaffleStrategyControllerTest {
     @Test
     public void test_queryRaffleAwardList() {
         RaffleAwardListRequestDTO request = new RaffleAwardListRequestDTO();
-        request.setUserId("xiaofuge");
+        request.setUserId("qiuming");
         request.setActivityId(100301L);
 
         Response<List<RaffleAwardListResponseDTO>> response = raffleStrategyService.queryRaffleAwardList(request);

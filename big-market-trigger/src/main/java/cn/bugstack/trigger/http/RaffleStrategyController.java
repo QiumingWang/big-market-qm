@@ -125,7 +125,7 @@ public class RaffleStrategyController implements IRaffleStrategyService {
                         .awardSubtitle(strategyAward.getAwardSubTitle())
                         .sort(strategyAward.getSort())
                         .awardRuleLockCount(awardRuleLockCount)
-                        .isAwardUnlock(null == awardRuleLockCount || dayPartakeCount > awardRuleLockCount)
+                        .isAwardUnlock(null == awardRuleLockCount || dayPartakeCount >= awardRuleLockCount)
                         .waitUnlockCount(null == awardRuleLockCount || dayPartakeCount > awardRuleLockCount? 0: awardRuleLockCount - dayPartakeCount)
                         .build());
             }
@@ -153,6 +153,7 @@ public class RaffleStrategyController implements IRaffleStrategyService {
      */
     @RequestMapping(value = "random_raffle", method = RequestMethod.POST)
     @Override
+    @Deprecated
     public Response<RaffleStrategyResponseDTO> randomRaffle(@RequestBody RaffleStrategyRequestDTO request) {
         try {
             log.info("随机抽奖开始： strategyID: {}", request.getStrategyId());

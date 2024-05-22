@@ -35,7 +35,7 @@ public class RaffleActivityControllerTest {
     @Test
     public void test_draw() {
         ActivityDrawRequestDTO request = new ActivityDrawRequestDTO();
-        request.setUserId("xiaofuge");
+        request.setUserId("qiuming");
         request.setActivityId(100301L);
         Response<ActivityDrawResponseDTO> response = raffleStrategyService.draw(request);
 
