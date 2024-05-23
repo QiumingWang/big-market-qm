@@ -36,7 +36,7 @@ import java.util.Map;
 @Slf4j
 @RestController
 @CrossOrigin("${app.config.cross-origin}")
-@RequestMapping("/api/${app.config.api-version}/raffle/strategy")   // 自动监听接口
+@RequestMapping("/api/${app.config.api-version}/raffle/strategy/")   // 自动监听接口
 public class RaffleStrategyController implements IRaffleStrategyService {
 
     /** 策略装配 */

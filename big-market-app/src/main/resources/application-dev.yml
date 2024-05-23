@@ -50,9 +50,11 @@ mini-db-router:
       default: db00  # 默认库表
       routerKey: userId  # 根据什么值判断走那个库表
       list: db01,db02
+      url-head: jdbc:mysql://47.120.8.26:13306/big_market
+      url-tail: ?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
       db00:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://47.120.8.26:13306/big_market?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+        url: "${mini-db-router.jdbc.datasource.url-head}${mini-db-router.jdbc.datasource.url-tail}"
         username: root
         password: 123456
         type-class-name: com.zaxxer.hikari.HikariDataSource
@@ -67,7 +69,7 @@ mini-db-router:
           connection-test-query: SELECT 1
       db01:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://47.120.8.26:13306/big_market_01?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+        url: "${mini-db-router.jdbc.datasource.url-head}_01${mini-db-router.jdbc.datasource.url-tail}"
         username: root
         password: 123456
         type-class-name: com.zaxxer.hikari.HikariDataSource
@@ -82,7 +84,7 @@ mini-db-router:
           connection-test-query: SELECT 1
       db02:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://47.120.8.26:13306/big_market_02?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+        url: "${mini-db-router.jdbc.datasource.url-head}_02${mini-db-router.jdbc.datasource.url-tail}"
         username: root
         password: 123456
         type-class-name: com.zaxxer.hikari.HikariDataSource
