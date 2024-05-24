@@ -30,7 +30,7 @@
     <update id="updateTaskSendMessageCompleted" parameterType="cn.bugstack.infrastructure.persistent.po.Task">
         UPDATE task
         SET state = 'completed', update_time = NOW()
-        WHERE update_time= #{userId} AND message_id = #{messageId}
+        WHERE user_id= #{userId} AND message_id = #{messageId}
     </update>
 
     <select id="queryNoSendMessageTaskList" resultMap="dataMap">

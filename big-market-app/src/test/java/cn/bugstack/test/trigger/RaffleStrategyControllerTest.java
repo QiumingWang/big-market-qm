@@ -13,6 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * @className: RaffleStrategyController
@@ -29,7 +30,7 @@ public class RaffleStrategyControllerTest {
     private IRaffleStrategyService raffleStrategyService;
 
     @Test
-    public void test_queryRaffleAwardList() {
+    public void test_queryRaffleAwardList() throws InterruptedException {
         RaffleAwardListRequestDTO request = new RaffleAwardListRequestDTO();
         request.setUserId("qiuming");
         request.setActivityId(100301L);
@@ -38,5 +39,7 @@ public class RaffleStrategyControllerTest {
 
         log.info("请求参数: {}", JSON.toJSONString(request));
         log.info("测试结果: {}", JSON.toJSONString(response));
+
+        new CountDownLatch(1).await();
     }
 }

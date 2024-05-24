@@ -57,9 +57,10 @@ public class BehaviorRebateService implements IBehaviorRebateService {
             orderIds.add(behaviorRebateOrderEntity.getOrderId());
             // MQ 消息对象
             SendRebateMessageEvent.RebateMessage rebateMessage = SendRebateMessageEvent.RebateMessage.builder()
-                    .bizId(bizId)
+                    .userId(behaviorEntity.getUserId())
                     .rebateType(dailyBehaviorRebateVO.getRebateType())
                     .rebateConfig(dailyBehaviorRebateVO.getRebateConfig())
+                    .bizId(bizId)
                     .rebateDesc(dailyBehaviorRebateVO.getRebateDesc())
                     .build();
             // 构建事件消息
@@ -70,10 +71,10 @@ public class BehaviorRebateService implements IBehaviorRebateService {
             taskEntity.setTopic(sendRebateMessageEvent.topic());
             taskEntity.setMessageId(rebateMessageEventMessage.getId());
             taskEntity.setMessage(rebateMessageEventMessage);
-            taskEntity.setState(TaskStateVO.create);
+            taskEntity.setState(TaskStateVO.CREATE);
 
-            BehaviorRebateAggregate behaviorRebateAggregate = BehaviorRebateAggregate.builder().
-                    userId(behaviorEntity.getUserId())
+            BehaviorRebateAggregate behaviorRebateAggregate = BehaviorRebateAggregate.builder()
+                    .userId(behaviorEntity.getUserId())
                     .behaviorRebateOrderEntity(behaviorRebateOrderEntity)
                     .taskEntity(taskEntity)
                     .build();

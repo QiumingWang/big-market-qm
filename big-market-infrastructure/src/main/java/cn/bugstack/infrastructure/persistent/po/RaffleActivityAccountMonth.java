@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -35,4 +36,8 @@ public class RaffleActivityAccountMonth {
     /** 更新时间 */
     private Date updateTime;
 
+    private final SimpleDateFormat dateFormatMonth = new SimpleDateFormat("yyyy-MM");
+    public String currentMonth() {
+        return dateFormatMonth.format(new Date());
+    }
 }
