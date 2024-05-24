@@ -4,6 +4,8 @@ import cn.bugstack.infrastructure.persistent.po.UserBehaviorRebateOrder;
 import cn.bugstack.middleware.db.router.annotation.DBRouterStrategy;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 /**
  * @className: IUserBehaviorRebateOrderDao
  * @description: XXX
@@ -16,4 +18,5 @@ public interface IUserBehaviorRebateOrderDao {
 
     void insert(UserBehaviorRebateOrder userBehaviorRebateOrder);
 
+    List<UserBehaviorRebateOrder> queryOrderByOutBusinessNo(UserBehaviorRebateOrder userBehaviorRebateOrderReq);
 }

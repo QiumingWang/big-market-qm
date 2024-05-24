@@ -473,6 +473,39 @@ public class ActivityRepository implements IActivityRepository {
         return null == dayPartakeCount? 0: dayPartakeCount;
     }
 
+    @Override
+    public ActivityAccountEntity queryActivityAccountEntity(String userId, Long activityId) {
+        RaffleActivityAccount raffleActivityAccount = raffleActivityAccountDao.queryActivityAccountByUserId(RaffleActivityAccount.builder()
+                .userId(userId)
+                .activityId(activityId)
+                .build());
+        // 还没有参与活动
+        if (null == raffleActivityAccount) {
+            return ActivityAccountEntity.builder()
+                    .userId(userId)
+                    .activityId(activityId)
+                    .totalCount(0)
+                    .totalCountSurplus(0)
+                    .dayCount(0)
+                    .dayCountSurplus(0)
+                    .monthCount(0)
+                    .monthCountSurplus(0)
+                    .build();
+        }
+        // TODO: 处理月账户, 日账户为空的情况
+        ActivityAccountEntity activityAccountEntity = ActivityAccountEntity.builder()
+                .userId(raffleActivityAccount.getUserId())
+                .activityId(raffleActivityAccount.getActivityId())
+                .totalCount(raffleActivityAccount.getTotalCount())
+                .totalCountSurplus(raffleActivityAccount.getTotalCountSurplus())
+                .dayCount(raffleActivityAccount.getDayCount())
+                .dayCountSurplus(raffleActivityAccount.getDayCountSurplus())
+                .monthCount(raffleActivityAccount.getMonthCount())
+                .monthCountSurplus(raffleActivityAccount.getMonthCountSurplus())
+                .build();
+        return activityAccountEntity;
+    }
+
 
     @Override
     public UserRaffleOrderEntity queryNoUsedRaffleOrder(PartakeRaffleActivityEntity partakeRaffleActivityEntity) {
