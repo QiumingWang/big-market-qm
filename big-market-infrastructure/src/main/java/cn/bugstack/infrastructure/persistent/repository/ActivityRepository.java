@@ -475,6 +475,7 @@ public class ActivityRepository implements IActivityRepository {
 
     @Override
     public ActivityAccountEntity queryActivityAccountEntity(String userId, Long activityId) {
+        // 1. 查询总账户额度
         RaffleActivityAccount raffleActivityAccount = raffleActivityAccountDao.queryActivityAccountByUserId(RaffleActivityAccount.builder()
                 .userId(userId)
                 .activityId(activityId)
@@ -492,18 +493,51 @@ public class ActivityRepository implements IActivityRepository {
                     .monthCountSurplus(0)
                     .build();
         }
-        // TODO: 处理月账户, 日账户为空的情况
-        ActivityAccountEntity activityAccountEntity = ActivityAccountEntity.builder()
-                .userId(raffleActivityAccount.getUserId())
-                .activityId(raffleActivityAccount.getActivityId())
-                .totalCount(raffleActivityAccount.getTotalCount())
-                .totalCountSurplus(raffleActivityAccount.getTotalCountSurplus())
-                .dayCount(raffleActivityAccount.getDayCount())
-                .dayCountSurplus(raffleActivityAccount.getDayCountSurplus())
-                .monthCount(raffleActivityAccount.getMonthCount())
-                .monthCountSurplus(raffleActivityAccount.getMonthCountSurplus())
-                .build();
+        // 2. 查询月账户额度
+        RaffleActivityAccountMonth raffleActivityAccountMonth = raffleActivityAccountMonthDao.queryActivityAccountMonthByUserId(RaffleActivityAccountMonth.builder()
+                .userId(userId)
+                .activityId(activityId)
+                .build());
+        // 3. 查询日账户
+        RaffleActivityAccountDay raffleActivityAccountDay = raffleActivityAccountDayDao.queryActivityAccountDayByUserId(RaffleActivityAccountDay.builder()
+                .userId(userId)
+                .activityId(activityId)
+                .build());
+        // 组装对象
+        ActivityAccountEntity activityAccountEntity = new ActivityAccountEntity();
+        activityAccountEntity.setUserId(userId);
+        activityAccountEntity.setActivityId(activityId);
+        activityAccountEntity.setTotalCount(raffleActivityAccount.getTotalCount());
+        activityAccountEntity.setTotalCountSurplus(raffleActivityAccount.getTotalCountSurplus());
+        // 没有日账户, 从总账户中获取日额度填充
+        if (null == raffleActivityAccountDay) {
+            activityAccountEntity.setDayCount(raffleActivityAccount.getDayCount());
+            activityAccountEntity.setDayCountSurplus(raffleActivityAccount.getDayCountSurplus());
+        } else {
+            activityAccountEntity.setDayCount(raffleActivityAccountDay.getDayCount());
+            activityAccountEntity.setDayCountSurplus(raffleActivityAccountDay.getDayCountSurplus());
+        }
+        // 没有月账户， 从总账户中获取月额度填充
+        if (null == raffleActivityAccountMonth) {
+            activityAccountEntity.setMonthCount(raffleActivityAccount.getMonthCount());
+            activityAccountEntity.setMonthCountSurplus(raffleActivityAccount.getMonthCountSurplus());
+        } else {
+            activityAccountEntity.setMonthCount(raffleActivityAccountMonth.getMonthCount());
+            activityAccountEntity.setMonthCountSurplus(raffleActivityAccountMonth.getMonthCountSurplus());
+        }
+        // TODO: 这里是否应当添加对未构建账户做操作
+
         return activityAccountEntity;
+    }
+
+    @Override
+    public Integer queryRaffleActivityAccountPartakeCount(String userId, Long activityId) {
+        RaffleActivityAccount request = new RaffleActivityAccount();
+        request.setUserId(userId);
+        request.setActivityId(activityId);
+
+        RaffleActivityAccount raffleActivityAccount = raffleActivityAccountDao.queryActivityAccountByUserId(request);
+        return raffleActivityAccount.getMonthCount() - raffleActivityAccount.getTotalCountSurplus();
     }
 
 

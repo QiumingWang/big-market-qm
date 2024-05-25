@@ -1,11 +1,10 @@
 package cn.bugstack.domain.strategy.model.entity;
 
+import cn.bugstack.types.common.Constants;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-
-import cn.bugstack.types.common.Constants;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,7 +17,7 @@ import java.util.Map;
  * @description: 策略规则实体
  * @date: 2024/4/10 23:17
  */
-@Slf4j
+@Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor

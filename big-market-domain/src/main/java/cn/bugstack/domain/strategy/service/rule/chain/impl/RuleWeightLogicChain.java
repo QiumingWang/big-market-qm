@@ -25,8 +25,6 @@ public class RuleWeightLogicChain extends AbstractLogicChain {
     @Resource
     private IStrategyDispatch strategyDispatch;
 
-    public Long userScore = 0L;
-
     @Override
     protected String ruleModel() {
         return DefaultChainFactory.LogicModel.RULE_WEIGHT.getCode();
@@ -54,8 +52,14 @@ public class RuleWeightLogicChain extends AbstractLogicChain {
         List<Long> sortedKeys = new ArrayList<>(analyticalValue.keySet());
         Collections.sort(sortedKeys);
 
-        // 3. 判断用户积分值在哪个范围内
-        Long nextValue = sortedKeys.stream().filter(key -> userScore >= key).findFirst().orElse(null);
+        // 3. 判断用户积分值在哪个范围内. 找出最小符合的值，也就是【4500 积分，能找到 4000:102,103,104,105】、【5000 积分，能找到 5000:102,103,104,105,106,107】
+        // 到最后一个符合的值[如用户传了一个 5900 应该返回正确结果为 5000]，如果使用 Lambda findFirst 需要注意使用 sorted 反转结果
+        Integer userScore = repository.queryActivityAccountTotalUseCount(userId, strategyId);
+        Long nextValue = sortedKeys.stream()
+                .sorted(Comparator.reverseOrder())
+                .filter(key -> userScore >= key)
+                .findFirst()
+                .orElse(null);
 
         if (null != nextValue) {
             Integer awardId = strategyDispatch.getRandomAwardId(strategyId, analyticalValue.get(nextValue));

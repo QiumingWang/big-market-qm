@@ -1,6 +1,8 @@
 package cn.bugstack.trigger.http;
 
+import cn.bugstack.domain.activity.model.entity.ActivityAccountEntity;
 import cn.bugstack.domain.activity.model.entity.UserRaffleOrderEntity;
+import cn.bugstack.domain.activity.service.IRaffleActivityAccountQuotaService;
 import cn.bugstack.domain.activity.service.IRaffleActivityPartakeService;
 import cn.bugstack.domain.activity.service.armory.IActivityArmory;
 import cn.bugstack.domain.award.model.entity.UserAwardRecordEntity;
@@ -58,6 +60,8 @@ public class RaffleActivityController implements IRaffleActivityService {
     private IRaffleStrategy raffleStrategy;
     @Resource
     private IBehaviorRebateService behaviorRebateService;
+    @Resource
+    private IRaffleActivityAccountQuotaService raffleActivityAccountQuota;
 
 
     /**
@@ -248,9 +252,35 @@ public class RaffleActivityController implements IRaffleActivityService {
         }
     }
 
+    @RequestMapping(value = "query_user_activity_account", method = RequestMethod.POST)
     @Override
     public Response<UserActivityAccountResponseDTO> queryUserActivityAccount(UserActivityAccountRequestDTO request) {
-
-        return null;
+        try {
+            log.info("查询用户活动账户开始 userId: {} activityId: {}", request.getUserId(), request.getActivityId());
+            // 1. 参数校验
+            if (StringUtils.isBlank(request.getUserId()) || null == request.getActivityId()) {
+                throw new AppException(ResponseCode.ILLEGAL_PARAMETER.getCode(), ResponseCode.ILLEGAL_PARAMETER.getCode());
+            }
+            ActivityAccountEntity activityAccountEntity = raffleActivityAccountQuota.queryActivityAccountEntity(request.getUserId(), request.getActivityId());
+            UserActivityAccountResponseDTO response = new UserActivityAccountResponseDTO();
+            response.setTotalCount(activityAccountEntity.getTotalCount());
+            response.setTotalCountSurplus(activityAccountEntity.getTotalCountSurplus());
+            response.setMonthCount(activityAccountEntity.getMonthCount());
+            response.setMonthCountSurplus(activityAccountEntity.getMonthCountSurplus());
+            response.setDayCount(activityAccountEntity.getDayCount());
+            response.setDayCountSurplus(activityAccountEntity.getDayCountSurplus());
+            log.info("查询用户活动账户完成 userId: {} activityId: {} dto: {}", request.getUserId(), request.getActivityId(), JSON.toJSONString(response));
+            return Response.<UserActivityAccountResponseDTO>builder()
+                    .code(ResponseCode.SUCCESS.getCode())
+                    .info(ResponseCode.SUCCESS.getInfo())
+                    .data(response)
+                    .build();
+        } catch (Exception e) {
+            log.error("查询用户活动账户开始失败 userId: {} activityId: {}", request.getUserId(), request.getActivityId(), e);
+            return Response.<UserActivityAccountResponseDTO>builder()
+                    .code(ResponseCode.UN_ERROR.getCode())
+                    .info(ResponseCode.UN_ERROR.getInfo())
+                    .build();
+        }
     }
 }
