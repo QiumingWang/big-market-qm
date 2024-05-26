@@ -159,7 +159,7 @@ public class ActivityRepository implements IActivityRepository {
         RaffleActivityAccountMonth raffleActivityAccountMonth = new RaffleActivityAccountMonth();
         raffleActivityAccountMonth.setUserId(createQuotaOrderAggregate.getUserId());
         raffleActivityAccountMonth.setActivityId(createQuotaOrderAggregate.getActivityId());
-        raffleActivityAccountMonth.setMonth(raffleActivityAccountMonth.currentMonth());
+        raffleActivityAccountMonth.setMonth(RaffleActivityAccountMonth.currentMonth());
         raffleActivityAccountMonth.setMonthCount(createQuotaOrderAggregate.getMonthCount());
         raffleActivityAccountMonth.setMonthCountSurplus(createQuotaOrderAggregate.getMonthCount());
 
@@ -167,7 +167,7 @@ public class ActivityRepository implements IActivityRepository {
         RaffleActivityAccountDay raffleActivityAccountDay = new RaffleActivityAccountDay();
         raffleActivityAccountDay.setUserId(createQuotaOrderAggregate.getUserId());
         raffleActivityAccountDay.setActivityId(createQuotaOrderAggregate.getActivityId());
-        raffleActivityAccountDay.setDay(raffleActivityAccountDay.currentDay());
+        raffleActivityAccountDay.setDay(RaffleActivityAccountDay.currentDay());
         raffleActivityAccountDay.setDayCount(createQuotaOrderAggregate.getDayCount());
         raffleActivityAccountDay.setDayCountSurplus(createQuotaOrderAggregate.getDayCount());
 
@@ -378,8 +378,6 @@ public class ActivityRepository implements IActivityRepository {
                     throw new AppException(ResponseCode.INDEX_DUP.getCode(), ResponseCode.INDEX_DUP.getInfo());
                 }
             });
-        } catch (Exception e) {
-
         } finally {
             dbRouter.clear();
         }
@@ -467,7 +465,7 @@ public class ActivityRepository implements IActivityRepository {
         RaffleActivityAccountDay request = new RaffleActivityAccountDay();
         request.setUserId(userId);
         request.setActivityId(activityId);
-        request.setDay(request.currentDay());
+        request.setDay(RaffleActivityAccountDay.currentDay());
 
         Integer dayPartakeCount = raffleActivityAccountDayDao.queryRaffleActivityAccountDayPartakeCount(request);
         return null == dayPartakeCount? 0: dayPartakeCount;
@@ -497,11 +495,13 @@ public class ActivityRepository implements IActivityRepository {
         RaffleActivityAccountMonth raffleActivityAccountMonth = raffleActivityAccountMonthDao.queryActivityAccountMonthByUserId(RaffleActivityAccountMonth.builder()
                 .userId(userId)
                 .activityId(activityId)
+                .month(RaffleActivityAccountMonth.currentMonth())
                 .build());
         // 3. 查询日账户
         RaffleActivityAccountDay raffleActivityAccountDay = raffleActivityAccountDayDao.queryActivityAccountDayByUserId(RaffleActivityAccountDay.builder()
                 .userId(userId)
                 .activityId(activityId)
+                .day(RaffleActivityAccountDay.currentDay())
                 .build());
         // 组装对象
         ActivityAccountEntity activityAccountEntity = new ActivityAccountEntity();
@@ -537,7 +537,8 @@ public class ActivityRepository implements IActivityRepository {
         request.setActivityId(activityId);
 
         RaffleActivityAccount raffleActivityAccount = raffleActivityAccountDao.queryActivityAccountByUserId(request);
-        return raffleActivityAccount.getMonthCount() - raffleActivityAccount.getTotalCountSurplus();
+        if (null == raffleActivityAccount) return 0;
+        return raffleActivityAccount.getTotalCount() - raffleActivityAccount.getTotalCountSurplus();
     }
 
 

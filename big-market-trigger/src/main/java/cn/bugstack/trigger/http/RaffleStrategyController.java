@@ -185,7 +185,7 @@ public class RaffleStrategyController implements IRaffleStrategyService {
     }
 
     /**
-     * 查询抽奖策略权重规则配置
+     * 查询策略抽奖权重规则
      * curl --request POST \
      * --url http://localhost:8091/api/v1/raffle/strategy/query_raffle_strategy_rule_weight \
      * --header 'content-type: application/json' \
@@ -194,9 +194,9 @@ public class RaffleStrategyController implements IRaffleStrategyService {
      * "activityId": 100301
      * }'
      */
-    @RequestMapping(value = "qeury_raffle_strategy_rule_weight", method = RequestMethod.POST)
+    @RequestMapping(value = "query_raffle_strategy_rule_weight", method = RequestMethod.POST)
     @Override
-    public Response<List<RaffleStrategyRuleWeightResponseDTO>> queryRaffleStrategyRuleWeight(RaffleStrategyRuleWeightRequestDTO requestDTO) {
+    public Response<List<RaffleStrategyRuleWeightResponseDTO>> queryRaffleStrategyRuleWeight(@RequestBody RaffleStrategyRuleWeightRequestDTO requestDTO) {
         try {
             String userId = requestDTO.getUserId();
             Long activityId = requestDTO.getActivityId();

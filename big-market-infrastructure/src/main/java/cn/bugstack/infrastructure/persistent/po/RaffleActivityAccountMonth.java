@@ -36,8 +36,8 @@ public class RaffleActivityAccountMonth {
     /** 更新时间 */
     private Date updateTime;
 
-    private final SimpleDateFormat dateFormatMonth = new SimpleDateFormat("yyyy-MM");
-    public String currentMonth() {
+    private final static SimpleDateFormat dateFormatMonth = new SimpleDateFormat("yyyy-MM");
+    public static String currentMonth() {
         return dateFormatMonth.format(new Date());
     }
 }
